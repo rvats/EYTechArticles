@@ -7,16 +7,16 @@ Function ExportDLMembersInformationToCSV {
         [string]$logFile = "AddingMembersToDLOutputTranscript.txt",
 
         [Parameter(Mandatory = $true)]
-        $UserAccountName,
+        [string]$UserAccountName,
         
         [Parameter()]
-        $IdentityPrefix = "zz_",
+        [string]$IdentityPrefix = "zz_",
 
         [Parameter(Mandatory = $true)]
-        $OutFilePath = "DataDump.csv",
+        [string]$OutFilePath = "DataDump.csv",
 
         [Parameter(Mandatory = $true)]
-        $Delimiter = ";",
+        [string]$Delimiter = ";",
 
         [Parameter()]
         $TestSize = @{
