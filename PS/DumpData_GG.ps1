@@ -13,7 +13,7 @@ Function ExportDLMembersInformationToCSV {
         $IdentityPrefix = "zz_",
 
         [Parameter(Mandatory = $true)]
-        $OutFilePath = "C:\JPMC\DataDump.csv",
+        $OutFilePath = "DataDump.csv",
 
         [Parameter()]
         $TestSize = @{
