@@ -1,0 +1,5 @@
+Introduction to Power BI and how to use it in conjunction with other Azure Products such as Azure Synapse Analytics
+Identify ways you can solve real-world problems for clients with Azure cloud technologies​ and Power BI
+Apply your learnings to a hands-on build based on a common business challenge​
+Power BI is an interactive data visualization software product developed by Microsoft with primary focus on business intelligence. It is part of the Microsoft Power Platform. 
+Azure Synapse is an enterprise analytics service that accelerates time to insight across data warehouses and big data systems. Azure Synapse brings together the best of SQL technologies used in enterprise data warehousing, Spark technologies used for big data, Data Explorer for log and time series analytics, Pipelines for data integration and ETL/ELT, and deep integration with other Azure services such as Power BI, CosmosDB, and AzureML.

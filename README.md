@@ -1,2 +1,1 @@
-# EYTechArticles
-EYTechArticles
+# eytechblog
