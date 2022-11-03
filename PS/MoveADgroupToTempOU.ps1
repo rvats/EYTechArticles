@@ -24,7 +24,7 @@ Function ExportDLMembersInformationToCSV {
         [ValidateNotNullOrEmpty()]
         [string]$txtGroupFile = "ADDG2_descope.txt",
 
-        [Parameter(Mandatory = $true)]
+        [Parameter()]
         [string]$logFilePath = "MoveGroups_OutputAndErrors.txt",
         
         [Parameter(Mandatory = $true)]

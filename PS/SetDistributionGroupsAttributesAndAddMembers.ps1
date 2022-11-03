@@ -14,8 +14,7 @@ Param (
     [ValidateScript({ $_ -and (Test-Path -Path $_ -Filter '*.csv' -PathType Leaf)})]
     [string]$csvFile = "Data.csv",
 
-    [Parameter(Mandatory = $true)]
-    [ValidateNotNullOrEmpty()]
+    [Parameter()]
     [string]$logFile = "DistributionGroupMigrationOutputTranscript.txt",
 
     [Parameter()]

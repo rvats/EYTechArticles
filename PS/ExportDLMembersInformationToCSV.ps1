@@ -2,9 +2,8 @@
 
 Function ExportDLMembersInformationToCSV {
     Param (
-        [Parameter(Mandatory = $true)]
-        [ValidateNotNullOrEmpty()]
-        [string]$logFile = "AddingMembersToDLOutputTranscript.txt",
+        [Parameter()]
+        [string]$logFile = "ExportDLMembersInformationToCSV.txt",
 
         [Parameter(Mandatory = $true)]
         [string]$UserAccountName,
