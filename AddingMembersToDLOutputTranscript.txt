@@ -1,0 +1,338 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20221027225358
+Username: DESKTOP-4RIIH39\Rahul Vats
+RunAs User: DESKTOP-4RIIH39\Rahul Vats
+Configuration Name: 
+Machine: DESKTOP-4RIIH39 (Microsoft Windows NT 6.2.9200.0)
+Host Application: AddMembersToDL.exe
+Process ID: 5856
+PSVersion: 5.1.19041.1237
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1237
+BuildVersion: 10.0.19041.1237
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+
+----------------------------------------------------------------------------
+The module allows access to all existing remote PowerShell (V1) cmdlets in addition to the 9 new, faster, and more reliable cmdlets.
+
+|--------------------------------------------------------------------------|
+|    Old Cmdlets                    |    New/Reliable/Faster Cmdlets       |
+|--------------------------------------------------------------------------|
+|    Get-CASMailbox                 |    Get-EXOCASMailbox                 |
+|    Get-Mailbox                    |    Get-EXOMailbox                    |
+|    Get-MailboxFolderPermission    |    Get-EXOMailboxFolderPermission    |
+|    Get-MailboxFolderStatistics    |    Get-EXOMailboxFolderStatistics    |
+|    Get-MailboxPermission          |    Get-EXOMailboxPermission          |
+|    Get-MailboxStatistics          |    Get-EXOMailboxStatistics          |
+|    Get-MobileDeviceStatistics     |    Get-EXOMobileDeviceStatistics     |
+|    Get-Recipient                  |    Get-EXORecipient                  |
+|    Get-RecipientPermission        |    Get-EXORecipientPermission        |
+|--------------------------------------------------------------------------|
+
+To get additional information, run: Get-Help Connect-ExchangeOnline or check https://aka.ms/exops-docs
+
+Send your product improvement suggestions and feedback to exocmdletpreview@service.microsoft.com. For issues related to the module, contact Microsoft support. Don't use the feedback alias for problems or support issues.
+----------------------------------------------------------------------------
+
+Processing Adding Members to Distribution Groups
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV1" -Member  rvats1111@714networking.com  -BypassSecurityGroupManagerCheck
+Couldn't find object "rvats1111@714networking.com". Please make sure that it was spelled correctly or specify a 
+different object.
+    + CategoryInfo          : NotSpecified: (:) [Add-DistributionGroupMember], ManagementObjectNotFoundException
+    + FullyQualifiedErrorId : [Server=BN9PR14MB5001,RequestId=e44609da-6803-4de0-a95a-fcfc855346f3,TimeStamp=10/28/2022 
+5:54:23 AM] [FailureCategory=Cmdlet-ManagementObjectNotFoundException] 
+324C2646,Microsoft.Exchange.Management.RecipientTasks.AddDistributionGroupMember
+    + PSComputerName        : outlook.office365.com
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV1" -Member  Organizationmanagement1111@714networking.com  -BypassSecurityGroupManagerCheck
+Couldn't find object "Organizationmanagement1111@714networking.com". Please make sure that it was spelled correctly or 
+specify a different object.
+    + CategoryInfo          : NotSpecified: (:) [Add-DistributionGroupMember], ManagementObjectNotFoundException
+    + FullyQualifiedErrorId : [Server=BN9PR14MB5001,RequestId=c39c9730-349c-4716-819f-b982cc2e9e81,TimeStamp=10/28/2022 
+5:54:24 AM] [FailureCategory=Cmdlet-ManagementObjectNotFoundException] 
+5A6DCEE4,Microsoft.Exchange.Management.RecipientTasks.AddDistributionGroupMember
+    + PSComputerName        : outlook.office365.com
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV1" -Member  jabhishek1111@714networking.com  -BypassSecurityGroupManagerCheck
+Couldn't find object "jabhishek1111@714networking.com". Please make sure that it was spelled correctly or specify a 
+different object.
+    + CategoryInfo          : NotSpecified: (:) [Add-DistributionGroupMember], ManagementObjectNotFoundException
+    + FullyQualifiedErrorId : [Server=BN9PR14MB5001,RequestId=4c600af7-0ef8-4716-8c6f-d838ccc244b3,TimeStamp=10/28/2022 
+5:54:25 AM] [FailureCategory=Cmdlet-ManagementObjectNotFoundException] 
+4DFDE289,Microsoft.Exchange.Management.RecipientTasks.AddDistributionGroupMember
+    + PSComputerName        : outlook.office365.com
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV2" -Member  rvats2222@714networking.com  -BypassSecurityGroupManagerCheck
+Couldn't find object "rvats2222@714networking.com". Please make sure that it was spelled correctly or specify a 
+different object.
+    + CategoryInfo          : NotSpecified: (:) [Add-DistributionGroupMember], ManagementObjectNotFoundException
+    + FullyQualifiedErrorId : [Server=BN9PR14MB5001,RequestId=014cabf7-d56a-4f82-87cb-387ae2169033,TimeStamp=10/28/2022 
+5:54:26 AM] [FailureCategory=Cmdlet-ManagementObjectNotFoundException] 
+7D73C646,Microsoft.Exchange.Management.RecipientTasks.AddDistributionGroupMember
+    + PSComputerName        : outlook.office365.com
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV2" -Member  Organizationmanagement2222@714networking.com  -BypassSecurityGroupManagerCheck
+Couldn't find object "Organizationmanagement2222@714networking.com". Please make sure that it was spelled correctly or 
+specify a different object.
+    + CategoryInfo          : NotSpecified: (:) [Add-DistributionGroupMember], ManagementObjectNotFoundException
+    + FullyQualifiedErrorId : [Server=BN9PR14MB5001,RequestId=8e4aeb1b-ef03-4654-b802-e7d3f2a9b6fc,TimeStamp=10/28/2022 
+5:54:27 AM] [FailureCategory=Cmdlet-ManagementObjectNotFoundException] 
+1CBFC8E4,Microsoft.Exchange.Management.RecipientTasks.AddDistributionGroupMember
+    + PSComputerName        : outlook.office365.com
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV2" -Member  jabhishek2222@714networking.com  -BypassSecurityGroupManagerCheck
+Couldn't find object "jabhishek2222@714networking.com". Please make sure that it was spelled correctly or specify a 
+different object.
+    + CategoryInfo          : NotSpecified: (:) [Add-DistributionGroupMember], ManagementObjectNotFoundException
+    + FullyQualifiedErrorId : [Server=BN9PR14MB5001,RequestId=8c6e5368-ec09-4893-96f6-441d16f118b6,TimeStamp=10/28/2022 
+5:54:27 AM] [FailureCategory=Cmdlet-ManagementObjectNotFoundException] 
+A241EAC9,Microsoft.Exchange.Management.RecipientTasks.AddDistributionGroupMember
+    + PSComputerName        : outlook.office365.com
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV3" -Member  rvats3333@714networking.com  -BypassSecurityGroupManagerCheck
+Couldn't find object "rvats3333@714networking.com". Please make sure that it was spelled correctly or specify a 
+different object.
+    + CategoryInfo          : NotSpecified: (:) [Add-DistributionGroupMember], ManagementObjectNotFoundException
+    + FullyQualifiedErrorId : [Server=BN9PR14MB5001,RequestId=327ae33b-adb1-42b8-8c2c-068ee964aad2,TimeStamp=10/28/2022 
+5:54:28 AM] [FailureCategory=Cmdlet-ManagementObjectNotFoundException] 
+24DF8D46,Microsoft.Exchange.Management.RecipientTasks.AddDistributionGroupMember
+    + PSComputerName        : outlook.office365.com
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV3" -Member  Organizationmanagement3333@714networking.com  -BypassSecurityGroupManagerCheck
+Couldn't find object "Organizationmanagement3333@714networking.com". Please make sure that it was spelled correctly or 
+specify a different object.
+    + CategoryInfo          : NotSpecified: (:) [Add-DistributionGroupMember], ManagementObjectNotFoundException
+    + FullyQualifiedErrorId : [Server=BN9PR14MB5001,RequestId=56382d32-c3eb-4fcc-bcc7-059bbb0cfd8a,TimeStamp=10/28/2022 
+5:54:29 AM] [FailureCategory=Cmdlet-ManagementObjectNotFoundException] 
+73B85A64,Microsoft.Exchange.Management.RecipientTasks.AddDistributionGroupMember
+    + PSComputerName        : outlook.office365.com
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV3" -Member  jabhishek3333@714networking.com  -BypassSecurityGroupManagerCheck
+Couldn't find object "jabhishek3333@714networking.com". Please make sure that it was spelled correctly or specify a 
+different object.
+    + CategoryInfo          : NotSpecified: (:) [Add-DistributionGroupMember], ManagementObjectNotFoundException
+    + FullyQualifiedErrorId : [Server=BN9PR14MB5001,RequestId=be81d8b9-6e42-4b00-b957-3fd398c34581,TimeStamp=10/28/2022 
+5:54:30 AM] [FailureCategory=Cmdlet-ManagementObjectNotFoundException] 
+5F1F1309,Microsoft.Exchange.Management.RecipientTasks.AddDistributionGroupMember
+    + PSComputerName        : outlook.office365.com
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV4" -Member  rvats4444@714networking.com  -BypassSecurityGroupManagerCheck
+Couldn't find object "rvats4444@714networking.com". Please make sure that it was spelled correctly or specify a 
+different object.
+    + CategoryInfo          : NotSpecified: (:) [Add-DistributionGroupMember], ManagementObjectNotFoundException
+    + FullyQualifiedErrorId : [Server=BN9PR14MB5001,RequestId=a9e95b3a-5d42-4187-910c-5e4dac88131a,TimeStamp=10/28/2022 
+5:54:31 AM] [FailureCategory=Cmdlet-ManagementObjectNotFoundException] 
+A7B92846,Microsoft.Exchange.Management.RecipientTasks.AddDistributionGroupMember
+    + PSComputerName        : outlook.office365.com
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV4" -Member  Organizationmanagement4444@714networking.com  -BypassSecurityGroupManagerCheck
+Couldn't find object "Organizationmanagement4444@714networking.com". Please make sure that it was spelled correctly or 
+specify a different object.
+    + CategoryInfo          : NotSpecified: (:) [Add-DistributionGroupMember], ManagementObjectNotFoundException
+    + FullyQualifiedErrorId : [Server=BN9PR14MB5001,RequestId=c9b34aaf-9b17-4351-bea7-93c79af0f4ad,TimeStamp=10/28/2022 
+5:54:32 AM] [FailureCategory=Cmdlet-ManagementObjectNotFoundException] 
+9CE24B64,Microsoft.Exchange.Management.RecipientTasks.AddDistributionGroupMember
+    + PSComputerName        : outlook.office365.com
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV4" -Member  jabhishek4444@714networking.com  -BypassSecurityGroupManagerCheck
+Couldn't find object "jabhishek4444@714networking.com". Please make sure that it was spelled correctly or specify a 
+different object.
+    + CategoryInfo          : NotSpecified: (:) [Add-DistributionGroupMember], ManagementObjectNotFoundException
+    + FullyQualifiedErrorId : [Server=BN9PR14MB5001,RequestId=0ddf5d93-dff4-452e-9351-5c2a3dc320b2,TimeStamp=10/28/2022 
+5:54:32 AM] [FailureCategory=Cmdlet-ManagementObjectNotFoundException] 
+1CDB3149,Microsoft.Exchange.Management.RecipientTasks.AddDistributionGroupMember
+    + PSComputerName        : outlook.office365.com
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV5" -Member  DSelvaraj5555@714networking.com  -BypassSecurityGroupManagerCheck
+Couldn't find object "DSelvaraj5555@714networking.com". Please make sure that it was spelled correctly or specify a 
+different object.
+    + CategoryInfo          : NotSpecified: (:) [Add-DistributionGroupMember], ManagementObjectNotFoundException
+    + FullyQualifiedErrorId : [Server=BN9PR14MB5001,RequestId=286172fd-c3fe-4570-b0e6-d105c8b301e1,TimeStamp=10/28/2022 
+5:54:33 AM] [FailureCategory=Cmdlet-ManagementObjectNotFoundException] 
+1F6B844,Microsoft.Exchange.Management.RecipientTasks.AddDistributionGroupMember
+    + PSComputerName        : outlook.office365.com
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV5" -Member  Organizationmanagement5555@714networking.com  -BypassSecurityGroupManagerCheck
+Couldn't find object "Organizationmanagement5555@714networking.com". Please make sure that it was spelled correctly or 
+specify a different object.
+    + CategoryInfo          : NotSpecified: (:) [Add-DistributionGroupMember], ManagementObjectNotFoundException
+    + FullyQualifiedErrorId : [Server=BN9PR14MB5001,RequestId=e4c91444-399f-4d8c-98cf-b6f5d48728d4,TimeStamp=10/28/2022 
+5:54:34 AM] [FailureCategory=Cmdlet-ManagementObjectNotFoundException] 
+270CBDE4,Microsoft.Exchange.Management.RecipientTasks.AddDistributionGroupMember
+    + PSComputerName        : outlook.office365.com
+**********************
+Windows PowerShell transcript end
+End time: 20221027225436
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20221031062224
+Username: DESKTOP-4RIIH39\Rahul Vats
+RunAs User: DESKTOP-4RIIH39\Rahul Vats
+Configuration Name: 
+Machine: DESKTOP-4RIIH39 (Microsoft Windows NT 6.2.9200.0)
+Host Application: AddMembersToDL.exe
+Process ID: 2592
+PSVersion: 5.1.19041.1237
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1237
+BuildVersion: 10.0.19041.1237
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+
+----------------------------------------------------------------------------
+The module allows access to all existing remote PowerShell (V1) cmdlets in addition to the 9 new, faster, and more reliable cmdlets.
+
+|--------------------------------------------------------------------------|
+|    Old Cmdlets                    |    New/Reliable/Faster Cmdlets       |
+|--------------------------------------------------------------------------|
+|    Get-CASMailbox                 |    Get-EXOCASMailbox                 |
+|    Get-Mailbox                    |    Get-EXOMailbox                    |
+|    Get-MailboxFolderPermission    |    Get-EXOMailboxFolderPermission    |
+|    Get-MailboxFolderStatistics    |    Get-EXOMailboxFolderStatistics    |
+|    Get-MailboxPermission          |    Get-EXOMailboxPermission          |
+|    Get-MailboxStatistics          |    Get-EXOMailboxStatistics          |
+|    Get-MobileDeviceStatistics     |    Get-EXOMobileDeviceStatistics     |
+|    Get-Recipient                  |    Get-EXORecipient                  |
+|    Get-RecipientPermission        |    Get-EXORecipientPermission        |
+|--------------------------------------------------------------------------|
+
+To get additional information, run: Get-Help Connect-ExchangeOnline or check https://aka.ms/exops-docs
+
+Send your product improvement suggestions and feedback to exocmdletpreview@service.microsoft.com. For issues related to the module, contact Microsoft support. Don't use the feedback alias for problems or support issues.
+----------------------------------------------------------------------------
+
+Processing Adding Members to Distribution Groups
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV1" -Member  rvats@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV1" -Member  Organizationmanagement@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV1" -Member  jabhishek@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV2" -Member  rvats@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV2" -Member  Organizationmanagement@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV2" -Member  jabhishek@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV3" -Member  rvats@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV3" -Member  Organizationmanagement@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV3" -Member  jabhishek@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV4" -Member  rvats@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV4" -Member  Organizationmanagement@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV4" -Member  jabhishek@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV5" -Member  DSelvaraj@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV5" -Member  Organizationmanagement@714networking.com  -BypassSecurityGroupManagerCheck
+**********************
+Windows PowerShell transcript end
+End time: 20221031062342
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20221102092406
+Username: DESKTOP-4RIIH39\Rahul Vats
+RunAs User: DESKTOP-4RIIH39\Rahul Vats
+Configuration Name: 
+Machine: DESKTOP-4RIIH39 (Microsoft Windows NT 6.2.9200.0)
+Host Application: AddMembersToDL.exe
+Process ID: 2196
+PSVersion: 5.1.19041.1237
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1237
+BuildVersion: 10.0.19041.1237
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+
+----------------------------------------------------------------------------
+The module allows access to all existing remote PowerShell (V1) cmdlets in addition to the 9 new, faster, and more reliable cmdlets.
+
+|--------------------------------------------------------------------------|
+|    Old Cmdlets                    |    New/Reliable/Faster Cmdlets       |
+|--------------------------------------------------------------------------|
+|    Get-CASMailbox                 |    Get-EXOCASMailbox                 |
+|    Get-Mailbox                    |    Get-EXOMailbox                    |
+|    Get-MailboxFolderPermission    |    Get-EXOMailboxFolderPermission    |
+|    Get-MailboxFolderStatistics    |    Get-EXOMailboxFolderStatistics    |
+|    Get-MailboxPermission          |    Get-EXOMailboxPermission          |
+|    Get-MailboxStatistics          |    Get-EXOMailboxStatistics          |
+|    Get-MobileDeviceStatistics     |    Get-EXOMobileDeviceStatistics     |
+|    Get-Recipient                  |    Get-EXORecipient                  |
+|    Get-RecipientPermission        |    Get-EXORecipientPermission        |
+|--------------------------------------------------------------------------|
+
+To get additional information, run: Get-Help Connect-ExchangeOnline or check https://aka.ms/exops-docs
+
+Send your product improvement suggestions and feedback to exocmdletpreview@service.microsoft.com. For issues related to the module, contact Microsoft support. Don't use the feedback alias for problems or support issues.
+----------------------------------------------------------------------------
+
+Processing Adding Members to Distribution Groups
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV1" -Member  rvats@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV1" -Member  Organizationmanagement@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV1" -Member  jabhishek@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV2" -Member  rvats@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV2" -Member  Organizationmanagement@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV2" -Member  jabhishek@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV3" -Member  rvats@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV3" -Member  Organizationmanagement@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV3" -Member  jabhishek@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV4" -Member  rvats@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV4" -Member  Organizationmanagement@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV4" -Member  jabhishek@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV5" -Member  DSelvaraj@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV5" -Member  Organizationmanagement@714networking.com  -BypassSecurityGroupManagerCheck
+**********************
+Windows PowerShell transcript end
+End time: 20221102092500
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20221103071414
+Username: DESKTOP-4RIIH39\Rahul Vats
+RunAs User: DESKTOP-4RIIH39\Rahul Vats
+Configuration Name: 
+Machine: DESKTOP-4RIIH39 (Microsoft Windows NT 6.2.9200.0)
+Host Application: AddMembersToDL.exe
+Process ID: 7868
+PSVersion: 5.1.19041.1237
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1237
+BuildVersion: 10.0.19041.1237
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+
+----------------------------------------------------------------------------
+The module allows access to all existing remote PowerShell (V1) cmdlets in addition to the 9 new, faster, and more reliable cmdlets.
+
+|--------------------------------------------------------------------------|
+|    Old Cmdlets                    |    New/Reliable/Faster Cmdlets       |
+|--------------------------------------------------------------------------|
+|    Get-CASMailbox                 |    Get-EXOCASMailbox                 |
+|    Get-Mailbox                    |    Get-EXOMailbox                    |
+|    Get-MailboxFolderPermission    |    Get-EXOMailboxFolderPermission    |
+|    Get-MailboxFolderStatistics    |    Get-EXOMailboxFolderStatistics    |
+|    Get-MailboxPermission          |    Get-EXOMailboxPermission          |
+|    Get-MailboxStatistics          |    Get-EXOMailboxStatistics          |
+|    Get-MobileDeviceStatistics     |    Get-EXOMobileDeviceStatistics     |
+|    Get-Recipient                  |    Get-EXORecipient                  |
+|    Get-RecipientPermission        |    Get-EXORecipientPermission        |
+|--------------------------------------------------------------------------|
+
+To get additional information, run: Get-Help Connect-ExchangeOnline or check https://aka.ms/exops-docs
+
+Send your product improvement suggestions and feedback to exocmdletpreview@service.microsoft.com. For issues related to the module, contact Microsoft support. Don't use the feedback alias for problems or support issues.
+----------------------------------------------------------------------------
+
+Processing Adding Members to Distribution Groups
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV1" -Member  rvats@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV1" -Member  Organizationmanagement@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV1" -Member  jabhishek@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV2" -Member  rvats@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV2" -Member  Organizationmanagement@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV2" -Member  jabhishek@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV3" -Member  rvats@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV3" -Member  Organizationmanagement@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV3" -Member  jabhishek@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV4" -Member  rvats@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV4" -Member  Organizationmanagement@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV4" -Member  jabhishek@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV5" -Member  DSelvaraj@714networking.com  -BypassSecurityGroupManagerCheck
+Add-DistributionGroupMember -Identity "Rahul Vats - Team RAV5" -Member  Organizationmanagement@714networking.com  -BypassSecurityGroupManagerCheck
+**********************
+Windows PowerShell transcript end
+End time: 20221103071451
+**********************
