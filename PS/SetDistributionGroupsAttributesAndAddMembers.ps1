@@ -12,7 +12,7 @@ Param (
     [Parameter(Mandatory = $true)]
     #Verify the CSV actually exists before we let the script run.
     [ValidateScript({ $_ -and (Test-Path -Path $_ -Filter '*.csv' -PathType Leaf)})]
-    [string]$csvFile = "DataDump.csv",
+    [string]$csvFile = "Data.csv",
 
     [Parameter(Mandatory = $true)]
     [ValidateNotNullOrEmpty()]

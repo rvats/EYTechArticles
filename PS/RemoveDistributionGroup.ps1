@@ -9,14 +9,13 @@
 Function RemoveDistributionGroups {
 
 Param (
-    [Parameter()]
+    [Parameter(Mandatory = $true)]
     #Verify the CSV actually exists before we let the script run.
     [ValidateScript({ $_ -and (Test-Path -Path $_ -Filter '*.csv' -PathType Leaf)})]
-    [string]$csvFile = "C:\JPMC\JPMCTest.csv",
+    [string]$csvFile = "Data.csv",
 
-    [Parameter()]
-    [ValidateNotNullOrEmpty()]
-    [string]$logFile = "C:\JPMC\DistributionGroupMigrationOutputTranscript.txt"
+    [Parameter(Mandatory = $true)]
+    [string]$logFile = "DistributionGroupMigrationOutputTranscript.txt"
 )
 
 $ErrorActionPreference="SilentlyContinue"

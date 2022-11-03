@@ -13,7 +13,7 @@ Function ExportDLMembersInformationToCSV {
         [string]$IdentityPrefix = "zz_",
 
         [Parameter(Mandatory = $true)]
-        [string]$OutFilePath = "DataDump.csv",
+        [string]$OutFilePath = "Data.csv",
 
         [Parameter(Mandatory = $true)]
         [string]$Delimiter = ";",
