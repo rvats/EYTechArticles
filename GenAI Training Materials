@@ -1,0 +1,17 @@
+GenAI Training Short List
+1.	GitHub Repositories – Azure Search (GPT & OpenAI)
+a.	pablomarin/GPT-Azure-Search-Engine: Azure Cognitive Search + Azure OpenAI Accelerator (github.com) 
+b.	Azure-Samples/azure-search-openai-demo: A sample app for the Retrieval-Augmented Generation pattern running in Azure, using Azure Cognitive Search for retrieval and Azure OpenAI large language models to power ChatGPT-style and Q&A experiences. (github.com)
+2.	Prompt Engineering
+a.	https://platform.openai.com/docs/guides/gpt-best-practices
+b.	https://eylearning.udemy.com/course/prompt-engineering-for-ai/
+3.	MSFT Semantic Kernel/Langchain (The "EF" of LLMs)
+a.	Semantic Kernel for Beginners: Exploring the World of Semantic Kernel - YouTube
+b.	https://eylearning.udemy.com/course/langchain/
+4.	C#
+a.	https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/
+b.	https://eylearning.udemy.com/course/csharp-tutorial-for-beginners/
+c.	https://eylearning.udemy.com/course/csharp-intermediate-classes-interfaces-and-oop/
+d.	https://eylearning.udemy.com/course/csharp-advanced/
+e.	C# Language Highlights
+
