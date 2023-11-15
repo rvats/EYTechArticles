@@ -14,4 +14,12 @@ b.	https://eylearning.udemy.com/course/csharp-tutorial-for-beginners/
 c.	https://eylearning.udemy.com/course/csharp-intermediate-classes-interfaces-and-oop/
 d.	https://eylearning.udemy.com/course/csharp-advanced/
 e.	C# Language Highlights
-
+Azure cognitive search, RAG (retrieval augmented generation), vector database, chunking, embedding
+tell me a bit about your past experience with GenAI, especially things you worked on solely by yourself
+what is the biggest challenge you encountered in X project? how did you tackle it?
+what is the project you are most proud of
+have you done prompt engineering? what are some useful insights/take aways through your iterations?
+have you used azure cognitive search? 
+have you dealt with unstructured data using OpenAI models?
+how did your evaluate quality of the llm summarization?
+Have you deployed the model you built?
