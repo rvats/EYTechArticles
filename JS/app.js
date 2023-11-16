@@ -1,5 +1,3 @@
-const API_KEY = "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";
-
 async function fetchData() {
     const response = await fetch("https://api.openai.com/v1/completions", {
         method: "POST",
